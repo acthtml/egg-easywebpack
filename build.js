@@ -12,7 +12,7 @@ const webpackConfig = require('./webpack_config');
 const env = process.env.EGG_SERVER_ENV || 'local';
 
 async function run(){
-  // console.log('build env:', env);
+  console.log('build env:', env);
   // 1. clean
   await fs.emptyDir(path.join(process.cwd(), 'public', 'static'));
   // @todo clean the folders: /public/static and /app/view/
