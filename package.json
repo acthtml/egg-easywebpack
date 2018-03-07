@@ -1,6 +1,6 @@
 {
   "name": "egg-easywebpack",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "提供[egg-vue-spa-ssr-boilderplate](https://github.com/acthtml/egg-vue-spa-ssr-boilerplate) 开箱即用的webpack配置。",
   "main": "webpack_config/index.js",
   "repository": {
